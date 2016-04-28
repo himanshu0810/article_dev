@@ -1,0 +1,24 @@
+
+
+
+<div class="box">
+  <div class="container-1">
+  <form accept-charset="UTF-8" action="/search" method="get">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" id="search" placeholder="Search..." name="search" />
+     </form>
+  </div>
+</div>
+
+<% @list.each do |ss| %>
+
+<div class="title">
+<%= ss.title %>
+</div>
+<div class="link">
+	<%= ss.link %>
+</div>
+
+<br/><br/>
+
+<%end %>

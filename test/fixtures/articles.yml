@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  points: 1
+  level: 1
+  summary: MyText
+  article: 
+  link: MyText
+
+two:
+  title: MyText
+  points: 1
+  level: 1
+  summary: MyText
+  article: 
+  link: MyText
