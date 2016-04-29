@@ -86,6 +86,7 @@ GEM
     nested_form (0.3.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     rack (1.6.4)
     rack-pjax (0.8.0)
       nokogiri (~> 1.5)
@@ -178,6 +179,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql
+  pg
   rails (= 4.2.5.1)
   rails_admin
   sass-rails (~> 5.0)
